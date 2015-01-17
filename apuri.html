@@ -1,0 +1,732 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>apuri app</title>
+<meta charset="utf-8">
+
+</head>
+<body>
+<style>
+table,tbody,tr,td{
+	border: solid 1px black;
+}
+</style>
+
+<table id="calendar1">
+<thead>
+<tr><td>1月</td><td>収入:</td><td class="income"></td></tr>
+</thead>
+
+<tbody>
+<tr>
+<td class="date"></td>
+<td class="date"></td>
+<td class="date"></td>
+<td class="date"></td>
+<td class="date">1<div class="worked"><div class="time">0</div><button class="change">変更</button></div></td>
+<td class="date">2<div class="worked"><div class="time">0</div><button class="change">変更</button></div></td>
+<td class="date">3<div class="worked"><div class="time">0</div><button class="change">変更</button></div></td>
+</tr>
+<tr>
+<td class="date">4<div class="worked"><div class="time">0</div><button class="change">変更</button></div></td>
+<td class="date">5<div class="worked"><div class="time">0</div><button class="change">変更</button></div></td>
+<td class="date">6<div class="worked"><div class="time">0</div><button class="change">変更</button></div></td>
+<td class="date">7<div class="worked"><div class="time">0</div><button class="change">変更</button></div></td>
+<td class="date">8<div class="worked"><div class="time">0</div><button class="change">変更</button></div></td>
+<td class="date">9<div class="worked"><div class="time">0</div><button class="change">変更</button></div></td>
+<td class="date">10<div class="worked"><div class="time">0</div><button class="change">変更</button></div></td>
+</tr>
+
+<tr>
+<td class="date">11<div class="worked"><div class="time">0</div><button class="change">変更</button></div></td>
+<td class="date">12<div class="worked"><div class="time">0</div><button class="change">変更</button></div></td>
+<td class="date">13<div class="worked"><div class="time">0</div><button class="change">変更</button></div></td>
+<td class="date">14<div class="worked"><div class="time">0</div><button class="change">変更</button></div></td>
+<td class="date">15<div class="worked"><div class="time">0</div><button class="change">変更</button></div></td>
+<td class="date">16<div class="worked"><div class="time">0</div><button class="change">変更</button></div></td>
+<td class="date">17<div class="worked"><div class="time">0</div><button class="change">変更</button></div></td>
+</tr>
+
+<tr>
+<td class="date">18<div class="worked"><div class="time">0</div><button class="change">変更</button></div></td>
+<td class="date">19<div class="worked"><div class="time">0</div><button class="change">変更</button></div></td>
+<td class="date">20<div class="worked"><div class="time">0</div><button class="change">変更</button></div></td>
+<td class="date">21<div class="worked"><div class="time">0</div><button class="change">変更</button></div></td>
+<td class="date">22<div class="worked"><div class="time">0</div><button class="change">変更</button></div></td>
+<td class="date">23<div class="worked"><div class="time">0</div><button class="change">変更</button></div></td>
+<td class="date">24<div class="worked"><div class="time">0</div><button class="change">変更</button></div></td>
+</tr>
+<tr>
+<td class="date">25<div class="worked"><div class="time">0</div><button class="change">変更</button></div></td>
+<td class="date">26<div class="worked"><div class="time">0</div><button class="change">変更</button></div></td>
+<td class="date">27<div class="worked"><div class="time">0</div><button class="change">変更</button></div></td>
+<td class="date">28<div class="worked"><div class="time">0</div><button class="change">変更</button></div></td>
+<td class="date">29<div class="worked"><div class="time">0</div><button class="change">変更</button></div></td>
+<td class="date">30<div class="worked"><div class="time">0</div><button class="change">変更</button></div></td>
+<td class="date">31<div class="worked"><div class="time">0</div><button class="change">変更</button></div></td>
+</tr>
+</tbody>
+</table>
+
+<table id="calendar2">
+<thead>
+<tr><td>2月</td><td>収入:</td><td class="income"></td></tr>
+</thead>
+
+<tbody>
+<tr>
+<td class="date">1<div class="worked"><div class="time">0</div><button class="change">変更</button></div></td>
+<td class="date">2<div class="worked"><div class="time">0</div><button class="change">変更</button></div></td>
+<td class="date">3<div class="worked"><div class="time">0</div><button class="change">変更</button></div></td>
+<td class="date">4<div class="worked"><div class="time">0</div><button class="change">変更</button></div></td>
+<td class="date">5<div class="worked"><div class="time">0</div><button class="change">変更</button></div></td>
+<td class="date">6<div class="worked"><div class="time">0</div><button class="change">変更</button></div></td>
+<td class="date">7<div class="worked"><div class="time">0</div><button class="change">変更</button></div></td>
+</tr>
+<tr>
+<td class="date">8<div class="worked"><div class="time">0</div><button class="change">変更</button></div></td>
+<td class="date">9<div class="worked"><div class="time">0</div><button class="change">変更</button></div></td>
+<td class="date">10<div class="worked"><div class="time">0</div><button class="change">変更</button></div></td>
+<td class="date">11<div class="worked"><div class="time">0</div><button class="change">変更</button></div></td>
+<td class="date">12<div class="worked"><div class="time">0</div><button class="change">変更</button></div></td>
+<td class="date">13<div class="worked"><div class="time">0</div><button class="change">変更</button></div></td>
+<td class="date">14<div class="worked"><div class="time">0</div><button class="change">変更</button></div></td>
+</tr>
+
+<tr>
+<td class="date">15<div class="worked"><div class="time">0</div><button class="change">変更</button></div></td>
+<td class="date">16<div class="worked"><div class="time">0</div><button class="change">変更</button></div></td>
+<td class="date">17<div class="worked"><div class="time">0</div><button class="change">変更</button></div></td>
+<td class="date">18<div class="worked"><div class="time">0</div><button class="change">変更</button></div></td>
+<td class="date">19<div class="worked"><div class="time">0</div><button class="change">変更</button></div></td>
+<td class="date">20<div class="worked"><div class="time">0</div><button class="change">変更</button></div></td>
+<td class="date">21<div class="worked"><div class="time">0</div><button class="change">変更</button></div></td>
+</tr>
+
+<tr>
+<td class="date">22<div class="worked"><div class="time">0</div><button class="change">変更</button></div></td>
+<td class="date">23<div class="worked"><div class="time">0</div><button class="change">変更</button></div></td>
+<td class="date">24<div class="worked"><div class="time">0</div><button class="change">変更</button></div></td>
+<td class="date">25<div class="worked"><div class="time">0</div><button class="change">変更</button></div></td>
+<td class="date">26<div class="worked"><div class="time">0</div><button class="change">変更</button></div></td>
+<td class="date">27<div class="worked"><div class="time">0</div><button class="change">変更</button></div></td>
+<td class="date">28<div class="worked"><div class="time">0</div><button class="change">変更</button></div></td>
+</tr>
+
+</tbody>
+</table>
+
+<table id="calendar3">
+<thead>
+<tr><td>3月</td><td>収入:</td><td class="income"></td></tr>
+</thead>
+
+<tbody>
+<tr>
+<td class="date">1<div class="worked"><div class="time">0</div><button class="change">変更</button></div></td>
+<td class="date">2<div class="worked"><div class="time">0</div><button class="change">変更</button></div></td>
+<td class="date">3<div class="worked"><div class="time">0</div><button class="change">変更</button></div></td>
+<td class="date">4<div class="worked"><div class="time">0</div><button class="change">変更</button></div></td>
+<td class="date">5<div class="worked"><div class="time">0</div><button class="change">変更</button></div></td>
+<td class="date">6<div class="worked"><div class="time">0</div><button class="change">変更</button></div></td>
+<td class="date">7<div class="worked"><div class="time">0</div><button class="change">変更</button></div></td>
+</tr>
+<tr>
+<td class="date">8<div class="worked"><div class="time">0</div><button class="change">変更</button></div></td>
+<td class="date">9<div class="worked"><div class="time">0</div><button class="change">変更</button></div></td>
+<td class="date">10<div class="worked"><div class="time">0</div><button class="change">変更</button></div></td>
+<td class="date">11<div class="worked"><div class="time">0</div><button class="change">変更</button></div></td>
+<td class="date">12<div class="worked"><div class="time">0</div><button class="change">変更</button></div></td>
+<td class="date">13<div class="worked"><div class="time">0</div><button class="change">変更</button></div></td>
+<td class="date">14<div class="worked"><div class="time">0</div><button class="change">変更</button></div></td>
+</tr>
+
+<tr>
+<td class="date">15<div class="worked"><div class="time">0</div><button class="change">変更</button></div></td>
+<td class="date">16<div class="worked"><div class="time">0</div><button class="change">変更</button></div></td>
+<td class="date">17<div class="worked"><div class="time">0</div><button class="change">変更</button></div></td>
+<td class="date">18<div class="worked"><div class="time">0</div><button class="change">変更</button></div></td>
+<td class="date">19<div class="worked"><div class="time">0</div><button class="change">変更</button></div></td>
+<td class="date">20<div class="worked"><div class="time">0</div><button class="change">変更</button></div></td>
+<td class="date">21<div class="worked"><div class="time">0</div><button class="change">変更</button></div></td>
+</tr>
+
+<tr>
+<td class="date">22<div class="worked"><div class="time">0</div><button class="change">変更</button></div></td>
+<td class="date">23<div class="worked"><div class="time">0</div><button class="change">変更</button></div></td>
+<td class="date">24<div class="worked"><div class="time">0</div><button class="change">変更</button></div></td>
+<td class="date">25<div class="worked"><div class="time">0</div><button class="change">変更</button></div></td>
+<td class="date">26<div class="worked"><div class="time">0</div><button class="change">変更</button></div></td>
+<td class="date">27<div class="worked"><div class="time">0</div><button class="change">変更</button></div></td>
+<td class="date">28<div class="worked"><div class="time">0</div><button class="change">変更</button></div></td>
+</tr>
+<tr>
+<td class="date">29<div class="worked"><div class="time">0</div><button class="change">変更</button></div></td>
+<td class="date">30<div class="worked"><div class="time">0</div><button class="change">変更</button></div></td>
+<td class="date">31<div class="worked"><div class="time">0</div><button class="change">変更</button></div></td>
+<td class="date"></td>
+<td class="date"></td>
+<td class="date"></td>
+<td class="date"></td>
+</tr>
+</tbody>
+</table>
+
+<table id="calendar4">
+<thead>
+<tr><td>4月</td><td>収入:</td><td class="income"></td></tr>
+</thead>
+
+<tbody>
+<tr>
+<td class="date"></td>
+<td class="date"></td>
+<td class="date"></td>
+<td class="date">1<div class="worked"><div class="time">0</div><button class="change">変更</button></div></td>
+<td class="date">2<div class="worked"><div class="time">0</div><button class="change">変更</button></div></td>
+<td class="date">3<div class="worked"><div class="time">0</div><button class="change">変更</button></div></td>
+<td class="date">4<div class="worked"><div class="time">0</div><button class="change">変更</button></div></td>
+</tr>
+<tr>
+<td class="date">5<div class="worked"><div class="time">0</div><button class="change">変更</button></div></td>
+<td class="date">6<div class="worked"><div class="time">0</div><button class="change">変更</button></div></td>
+<td class="date">7<div class="worked"><div class="time">0</div><button class="change">変更</button></div></td>
+<td class="date">8<div class="worked"><div class="time">0</div><button class="change">変更</button></div></td>
+<td class="date">9<div class="worked"><div class="time">0</div><button class="change">変更</button></div></td>
+<td class="date">10<div class="worked"><div class="time">0</div><button class="change">変更</button></div></td>
+<td class="date">11<div class="worked"><div class="time">0</div><button class="change">変更</button></div></td>
+</tr>
+
+<tr>
+<td class="date">12<div class="worked"><div class="time">0</div><button class="change">変更</button></div></td>
+<td class="date">13<div class="worked"><div class="time">0</div><button class="change">変更</button></div></td>
+<td class="date">14<div class="worked"><div class="time">0</div><button class="change">変更</button></div></td>
+<td class="date">15<div class="worked"><div class="time">0</div><button class="change">変更</button></div></td>
+<td class="date">16<div class="worked"><div class="time">0</div><button class="change">変更</button></div></td>
+<td class="date">17<div class="worked"><div class="time">0</div><button class="change">変更</button></div></td>
+<td class="date">18<div class="worked"><div class="time">0</div><button class="change">変更</button></div></td>
+</tr>
+
+<tr>
+<td class="date">19<div class="worked"><div class="time">0</div><button class="change">変更</button></div></td>
+<td class="date">20<div class="worked"><div class="time">0</div><button class="change">変更</button></div></td>
+<td class="date">21<div class="worked"><div class="time">0</div><button class="change">変更</button></div></td>
+<td class="date">22<div class="worked"><div class="time">0</div><button class="change">変更</button></div></td>
+<td class="date">23<div class="worked"><div class="time">0</div><button class="change">変更</button></div></td>
+<td class="date">24<div class="worked"><div class="time">0</div><button class="change">変更</button></div></td>
+<td class="date">25<div class="worked"><div class="time">0</div><button class="change">変更</button></div></td>
+</tr>
+
+<tr>
+<td class="date">26<div class="worked"><div class="time">0</div><button class="change">変更</button></div></td>
+<td class="date">27<div class="worked"><div class="time">0</div><button class="change">変更</button></div></td>
+<td class="date">28<div class="worked"><div class="time">0</div><button class="change">変更</button></div></td>
+<td class="date">29<div class="worked"><div class="time">0</div><button class="change">変更</button></div></td>
+<td class="date">30<div class="worked"><div class="time">0</div><button class="change">変更</button></div></td>
+<td class="date"></td>
+<td class="date"></td>
+</tr>
+</tbody>
+</table>
+
+<table id="calendar5">
+<thead>
+<tr><td>5月</td><td>収入:</td><td class="income"></td></tr>
+</thead>
+
+<tbody>
+<tr>
+<td class="date"></td>
+<td class="date"></td>
+<td class="date"></td>
+<td class="date"></td>
+<td class="date"></td>
+<td class="date">1<div class="worked"><div class="time">0</div><button class="change">変更</button></div></td>
+<td class="date">2<div class="worked"><div class="time">0</div><button class="change">変更</button></div></td>
+</tr>
+<tr>
+<td class="date">3<div class="worked"><div class="time">0</div><button class="change">変更</button></div></td>
+<td class="date">4<div class="worked"><div class="time">0</div><button class="change">変更</button></div></td>
+<td class="date">5<div class="worked"><div class="time">0</div><button class="change">変更</button></div></td>
+<td class="date">6<div class="worked"><div class="time">0</div><button class="change">変更</button></div></td>
+<td class="date">7<div class="worked"><div class="time">0</div><button class="change">変更</button></div></td>
+<td class="date">8<div class="worked"><div class="time">0</div><button class="change">変更</button></div></td>
+<td class="date">9<div class="worked"><div class="time">0</div><button class="change">変更</button></div></td>
+</tr>
+
+<tr>
+<td class="date">10<div class="worked"><div class="time">0</div><button class="change">変更</button></div></td>
+<td class="date">11<div class="worked"><div class="time">0</div><button class="change">変更</button></div></td>
+<td class="date">12<div class="worked"><div class="time">0</div><button class="change">変更</button></div></td>
+<td class="date">13<div class="worked"><div class="time">0</div><button class="change">変更</button></div></td>
+<td class="date">14<div class="worked"><div class="time">0</div><button class="change">変更</button></div></td>
+<td class="date">15<div class="worked"><div class="time">0</div><button class="change">変更</button></div></td>
+<td class="date">16<div class="worked"><div class="time">0</div><button class="change">変更</button></div></td>
+</tr>
+
+<tr>
+<td class="date">17<div class="worked"><div class="time">0</div><button class="change">変更</button></div></td>
+<td class="date">18<div class="worked"><div class="time">0</div><button class="change">変更</button></div></td>
+<td class="date">19<div class="worked"><div class="time">0</div><button class="change">変更</button></div></td>
+<td class="date">20<div class="worked"><div class="time">0</div><button class="change">変更</button></div></td>
+<td class="date">21<div class="worked"><div class="time">0</div><button class="change">変更</button></div></td>
+<td class="date">22<div class="worked"><div class="time">0</div><button class="change">変更</button></div></td>
+<td class="date">23<div class="worked"><div class="time">0</div><button class="change">変更</button></div></td>
+</tr>
+
+<tr>
+<td class="date">24<div class="worked"><div class="time">0</div><button class="change">変更</button></div></td>
+<td class="date">25<div class="worked"><div class="time">0</div><button class="change">変更</button></div></td>
+<td class="date">26<div class="worked"><div class="time">0</div><button class="change">変更</button></div></td>
+<td class="date">27<div class="worked"><div class="time">0</div><button class="change">変更</button></div></td>
+<td class="date">28<div class="worked"><div class="time">0</div><button class="change">変更</button></div></td>
+<td class="date">29<div class="worked"><div class="time">0</div><button class="change">変更</button></div></td>
+<td class="date">30<div class="worked"><div class="time">0</div><button class="change">変更</button></div></td>
+</tr>
+
+<tr>
+<td class="date">31<div class="worked"><div class="time">0</div><button class="change">変更</button></div></td>
+<td class="date"></td>
+<td class="date"></td>
+<td class="date"></td>
+<td class="date"></td>
+<td class="date"></td>
+<td class="date"></td>
+</tr>
+</tbody>
+</table>
+
+<table id="calendar6">
+<thead>
+<tr><td>6月</td><td>収入:</td><td class="income"></td></tr>
+</thead>
+
+<tbody>
+<tr>
+<td class="date"></td>
+<td class="date">1<div class="worked"><div class="time">0</div><button class="change">変更</button></div></td>
+<td class="date">2<div class="worked"><div class="time">0</div><button class="change">変更</button></div></td>
+<td class="date">3<div class="worked"><div class="time">0</div><button class="change">変更</button></div></td>
+<td class="date">4<div class="worked"><div class="time">0</div><button class="change">変更</button></div></td>
+<td class="date">5<div class="worked"><div class="time">0</div><button class="change">変更</button></div></td>
+<td class="date">6<div class="worked"><div class="time">0</div><button class="change">変更</button></div></td>
+</tr>
+<tr>
+<td class="date">7<div class="worked"><div class="time">0</div><button class="change">変更</button></div></td>
+<td class="date">8<div class="worked"><div class="time">0</div><button class="change">変更</button></div></td>
+<td class="date">9<div class="worked"><div class="time">0</div><button class="change">変更</button></div></td>
+<td class="date">10<div class="worked"><div class="time">0</div><button class="change">変更</button></div></td>
+<td class="date">11<div class="worked"><div class="time">0</div><button class="change">変更</button></div></td>
+<td class="date">12<div class="worked"><div class="time">0</div><button class="change">変更</button></div></td>
+<td class="date">13<div class="worked"><div class="time">0</div><button class="change">変更</button></div></td>
+</tr>
+
+<tr>
+<td class="date">14<div class="worked"><div class="time">0</div><button class="change">変更</button></div></td>
+<td class="date">15<div class="worked"><div class="time">0</div><button class="change">変更</button></div></td>
+<td class="date">16<div class="worked"><div class="time">0</div><button class="change">変更</button></div></td>
+<td class="date">17<div class="worked"><div class="time">0</div><button class="change">変更</button></div></td>
+<td class="date">18<div class="worked"><div class="time">0</div><button class="change">変更</button></div></td>
+<td class="date">19<div class="worked"><div class="time">0</div><button class="change">変更</button></div></td>
+<td class="date">20<div class="worked"><div class="time">0</div><button class="change">変更</button></div></td>
+</tr>
+
+<tr>
+<td class="date">21<div class="worked"><div class="time">0</div><button class="change">変更</button></div></td>
+<td class="date">22<div class="worked"><div class="time">0</div><button class="change">変更</button></div></td>
+<td class="date">23<div class="worked"><div class="time">0</div><button class="change">変更</button></div></td>
+<td class="date">24<div class="worked"><div class="time">0</div><button class="change">変更</button></div></td>
+<td class="date">25<div class="worked"><div class="time">0</div><button class="change">変更</button></div></td>
+<td class="date">26<div class="worked"><div class="time">0</div><button class="change">変更</button></div></td>
+<td class="date">27<div class="worked"><div class="time">0</div><button class="change">変更</button></div></td>
+</tr>
+
+<tr>
+<td class="date">28<div class="worked"><div class="time">0</div><button class="change">変更</button></div></td>
+<td class="date">29<div class="worked"><div class="time">0</div><button class="change">変更</button></div></td>
+<td class="date">30<div class="worked"><div class="time">0</div><button class="change">変更</button></div></td>
+<td class="date"></td>
+<td class="date"></td>
+<td class="date"></td>
+<td class="date"></td>
+</tr>
+
+</tbody>
+</table>
+
+<table id="calendar7">
+<thead>
+<tr><td>7月</td><td>収入:</td><td class="income"></td></tr>
+</thead>
+
+<tbody>
+<tr>
+<td class="date"></td>
+<td class="date"></td>
+<td class="date"></td>
+<td class="date">1<div class="worked"><div class="time">0</div><button class="change">変更</button></div></td>
+<td class="date">2<div class="worked"><div class="time">0</div><button class="change">変更</button></div></td>
+<td class="date">3<div class="worked"><div class="time">0</div><button class="change">変更</button></div></td>
+<td class="date">4<div class="worked"><div class="time">0</div><button class="change">変更</button></div></td>
+</tr>
+<tr>
+<td class="date">5<div class="worked"><div class="time">0</div><button class="change">変更</button></div></td>
+<td class="date">6<div class="worked"><div class="time">0</div><button class="change">変更</button></div></td>
+<td class="date">7<div class="worked"><div class="time">0</div><button class="change">変更</button></div></td>
+<td class="date">8<div class="worked"><div class="time">0</div><button class="change">変更</button></div></td>
+<td class="date">9<div class="worked"><div class="time">0</div><button class="change">変更</button></div></td>
+<td class="date">10<div class="worked"><div class="time">0</div><button class="change">変更</button></div></td>
+<td class="date">11<div class="worked"><div class="time">0</div><button class="change">変更</button></div></td>
+</tr>
+
+<tr>
+<td class="date">12<div class="worked"><div class="time">0</div><button class="change">変更</button></div></td>
+<td class="date">13<div class="worked"><div class="time">0</div><button class="change">変更</button></div></td>
+<td class="date">14<div class="worked"><div class="time">0</div><button class="change">変更</button></div></td>
+<td class="date">15<div class="worked"><div class="time">0</div><button class="change">変更</button></div></td>
+<td class="date">16<div class="worked"><div class="time">0</div><button class="change">変更</button></div></td>
+<td class="date">17<div class="worked"><div class="time">0</div><button class="change">変更</button></div></td>
+<td class="date">18<div class="worked"><div class="time">0</div><button class="change">変更</button></div></td>
+</tr>
+
+<tr>
+<td class="date">19<div class="worked"><div class="time">0</div><button class="change">変更</button></div></td>
+<td class="date">20<div class="worked"><div class="time">0</div><button class="change">変更</button></div></td>
+<td class="date">21<div class="worked"><div class="time">0</div><button class="change">変更</button></div></td>
+<td class="date">22<div class="worked"><div class="time">0</div><button class="change">変更</button></div></td>
+<td class="date">23<div class="worked"><div class="time">0</div><button class="change">変更</button></div></td>
+<td class="date">24<div class="worked"><div class="time">0</div><button class="change">変更</button></div></td>
+<td class="date">25<div class="worked"><div class="time">0</div><button class="change">変更</button></div></td>
+</tr>
+
+<tr>
+<td class="date">26<div class="worked"><div class="time">0</div><button class="change">変更</button></div></td>
+<td class="date">27<div class="worked"><div class="time">0</div><button class="change">変更</button></div></td>
+<td class="date">28<div class="worked"><div class="time">0</div><button class="change">変更</button></div></td>
+<td class="date">29<div class="worked"><div class="time">0</div><button class="change">変更</button></div></td>
+<td class="date">30<div class="worked"><div class="time">0</div><button class="change">変更</button></div></td>
+<td class="date">31<div class="worked"><div class="time">0</div><button class="change">変更</button></div></td>
+<td class="date"></td>
+</tr>
+
+<table id="calendar8">
+<thead>
+<tr><td>8月</td><td>収入:</td><td class="income"></td></tr>
+</thead>
+
+<tbody>
+<tr>
+<td class="date"></td>
+<td class="date"></td>
+<td class="date"></td>
+<td class="date"></td>
+<td class="date"></td>
+<td class="date"></td>
+<td class="date">1<div class="worked"><div class="time">0</div><button class="change">変更</button></div></td>
+</tr>
+<tr>
+<td class="date">2<div class="worked"><div class="time">0</div><button class="change">変更</button></div></td>
+<td class="date">3<div class="worked"><div class="time">0</div><button class="change">変更</button></div></td>
+<td class="date">4<div class="worked"><div class="time">0</div><button class="change">変更</button></div></td>
+<td class="date">5<div class="worked"><div class="time">0</div><button class="change">変更</button></div></td>
+<td class="date">6<div class="worked"><div class="time">0</div><button class="change">変更</button></div></td>
+<td class="date">7<div class="worked"><div class="time">0</div><button class="change">変更</button></div></td>
+<td class="date">8<div class="worked"><div class="time">0</div><button class="change">変更</button></div></td>
+</tr>
+
+<tr>
+<td class="date">9<div class="worked"><div class="time">0</div><button class="change">変更</button></div></td>
+<td class="date">10<div class="worked"><div class="time">0</div><button class="change">変更</button></div></td>
+<td class="date">11<div class="worked"><div class="time">0</div><button class="change">変更</button></div></td>
+<td class="date">12<div class="worked"><div class="time">0</div><button class="change">変更</button></div></td>
+<td class="date">13<div class="worked"><div class="time">0</div><button class="change">変更</button></div></td>
+<td class="date">14<div class="worked"><div class="time">0</div><button class="change">変更</button></div></td>
+<td class="date">15<div class="worked"><div class="time">0</div><button class="change">変更</button></div></td>
+</tr>
+
+<tr>
+<td class="date">16<div class="worked"><div class="time">0</div><button class="change">変更</button></div></td>
+<td class="date">17<div class="worked"><div class="time">0</div><button class="change">変更</button></div></td>
+<td class="date">18<div class="worked"><div class="time">0</div><button class="change">変更</button></div></td>
+<td class="date">19<div class="worked"><div class="time">0</div><button class="change">変更</button></div></td>
+<td class="date">20<div class="worked"><div class="time">0</div><button class="change">変更</button></div></td>
+<td class="date">21<div class="worked"><div class="time">0</div><button class="change">変更</button></div></td>
+<td class="date">22<div class="worked"><div class="time">0</div><button class="change">変更</button></div></td>
+</tr>
+
+<tr>
+<td class="date">23<div class="worked"><div class="time">0</div><button class="change">変更</button></div></td>
+<td class="date">24<div class="worked"><div class="time">0</div><button class="change">変更</button></div></td>
+<td class="date">25<div class="worked"><div class="time">0</div><button class="change">変更</button></div></td>
+<td class="date">26<div class="worked"><div class="time">0</div><button class="change">変更</button></div></td>
+<td class="date">27<div class="worked"><div class="time">0</div><button class="change">変更</button></div></td>
+<td class="date">28<div class="worked"><div class="time">0</div><button class="change">変更</button></div></td>
+<td class="date">29<div class="worked"><div class="time">0</div><button class="change">変更</button></div></td>
+</tr>
+
+<tr>
+<td class="date">30<div class="worked"><div class="time">0</div><button class="change">変更</button></div></td>
+<td class="date">31<div class="worked"><div class="time">0</div><button class="change">変更</button></div></td>
+<td class="date"></td>
+<td class="date"></td>
+<td class="date"></td>
+<td class="date"></td>
+<td class="date"></td>
+</tr>
+</tbody>
+</table>
+
+<table id="calendar9">
+<thead>
+<tr><td>9月</td><td>収入:</td><td class="income"></td></tr>
+</thead>
+
+<tbody>
+<tr>
+<td class="date"></td>
+<td class="date"></td>
+<td class="date">1<div class="worked"><div class="time">0</div><button class="change">変更</button></div></td>
+<td class="date">2<div class="worked"><div class="time">0</div><button class="change">変更</button></div></td>
+<td class="date">3<div class="worked"><div class="time">0</div><button class="change">変更</button></div></td>
+<td class="date">4<div class="worked"><div class="time">0</div><button class="change">変更</button></div></td>
+<td class="date">5<div class="worked"><div class="time">0</div><button class="change">変更</button></div></td>
+</tr>
+<tr>
+<td class="date">6<div class="worked"><div class="time">0</div><button class="change">変更</button></div></td>
+<td class="date">7<div class="worked"><div class="time">0</div><button class="change">変更</button></div></td>
+<td class="date">8<div class="worked"><div class="time">0</div><button class="change">変更</button></div></td>
+<td class="date">9<div class="worked"><div class="time">0</div><button class="change">変更</button></div></td>
+<td class="date">10<div class="worked"><div class="time">0</div><button class="change">変更</button></div></td>
+<td class="date">11<div class="worked"><div class="time">0</div><button class="change">変更</button></div></td>
+<td class="date">12<div class="worked"><div class="time">0</div><button class="change">変更</button></div></td>
+</tr>
+
+<tr>
+<td class="date">13<div class="worked"><div class="time">0</div><button class="change">変更</button></div></td>
+<td class="date">14<div class="worked"><div class="time">0</div><button class="change">変更</button></div></td>
+<td class="date">15<div class="worked"><div class="time">0</div><button class="change">変更</button></div></td>
+<td class="date">16<div class="worked"><div class="time">0</div><button class="change">変更</button></div></td>
+<td class="date">17<div class="worked"><div class="time">0</div><button class="change">変更</button></div></td>
+<td class="date">18<div class="worked"><div class="time">0</div><button class="change">変更</button></div></td>
+<td class="date">19<div class="worked"><div class="time">0</div><button class="change">変更</button></div></td>
+</tr>
+
+<tr>
+<td class="date">20<div class="worked"><div class="time">0</div><button class="change">変更</button></div></td>
+<td class="date">21<div class="worked"><div class="time">0</div><button class="change">変更</button></div></td>
+<td class="date">22<div class="worked"><div class="time">0</div><button class="change">変更</button></div></td>
+<td class="date">23<div class="worked"><div class="time">0</div><button class="change">変更</button></div></td>
+<td class="date">24<div class="worked"><div class="time">0</div><button class="change">変更</button></div></td>
+<td class="date">25<div class="worked"><div class="time">0</div><button class="change">変更</button></div></td>
+<td class="date">26<div class="worked"><div class="time">0</div><button class="change">変更</button></div></td>
+</tr>
+
+<tr>
+<td class="date">27<div class="worked"><div class="time">0</div><button class="change">変更</button></div></td>
+<td class="date">28<div class="worked"><div class="time">0</div><button class="change">変更</button></div></td>
+<td class="date">29<div class="worked"><div class="time">0</div><button class="change">変更</button></div></td>
+<td class="date">30<div class="worked"><div class="time">0</div><button class="change">変更</button></div></td>
+<td class="date"></td>
+<td class="date"></td>
+<td class="date"></td>
+</tr>
+
+<table id="calendar10">
+<thead>
+<tr><td>10月</td><td>収入:</td><td class="income"></td></tr>
+</thead>
+
+<tbody>
+<tr>
+<td class="date"></td>
+<td class="date"></td>
+<td class="date"></td>
+<td class="date"></td>
+<td class="date">1<div class="worked"><div class="time">0</div><button class="change">変更</button></div></td>
+<td class="date">2<div class="worked"><div class="time">0</div><button class="change">変更</button></div></td>
+<td class="date">3<div class="worked"><div class="time">0</div><button class="change">変更</button></div></td>
+</tr>
+<tr>
+<td class="date">4<div class="worked"><div class="time">0</div><button class="change">変更</button></div></td>
+<td class="date">5<div class="worked"><div class="time">0</div><button class="change">変更</button></div></td>
+<td class="date">6<div class="worked"><div class="time">0</div><button class="change">変更</button></div></td>
+<td class="date">7<div class="worked"><div class="time">0</div><button class="change">変更</button></div></td>
+<td class="date">8<div class="worked"><div class="time">0</div><button class="change">変更</button></div></td>
+<td class="date">9<div class="worked"><div class="time">0</div><button class="change">変更</button></div></td>
+<td class="date">10<div class="worked"><div class="time">0</div><button class="change">変更</button></div></td>
+</tr>
+
+<tr>
+<td class="date">11<div class="worked"><div class="time">0</div><button class="change">変更</button></div></td>
+<td class="date">12<div class="worked"><div class="time">0</div><button class="change">変更</button></div></td>
+<td class="date">13<div class="worked"><div class="time">0</div><button class="change">変更</button></div></td>
+<td class="date">14<div class="worked"><div class="time">0</div><button class="change">変更</button></div></td>
+<td class="date">15<div class="worked"><div class="time">0</div><button class="change">変更</button></div></td>
+<td class="date">16<div class="worked"><div class="time">0</div><button class="change">変更</button></div></td>
+<td class="date">17<div class="worked"><div class="time">0</div><button class="change">変更</button></div></td>
+</tr>
+
+<tr>
+<td class="date">18<div class="worked"><div class="time">0</div><button class="change">変更</button></div></td>
+<td class="date">19<div class="worked"><div class="time">0</div><button class="change">変更</button></div></td>
+<td class="date">20<div class="worked"><div class="time">0</div><button class="change">変更</button></div></td>
+<td class="date">21<div class="worked"><div class="time">0</div><button class="change">変更</button></div></td>
+<td class="date">22<div class="worked"><div class="time">0</div><button class="change">変更</button></div></td>
+<td class="date">23<div class="worked"><div class="time">0</div><button class="change">変更</button></div></td>
+<td class="date">24<div class="worked"><div class="time">0</div><button class="change">変更</button></div></td>
+</tr>
+
+<tr>
+<td class="date">25<div class="worked"><div class="time">0</div><button class="change">変更</button></div></td>
+<td class="date">26<div class="worked"><div class="time">0</div><button class="change">変更</button></div></td>
+<td class="date">27<div class="worked"><div class="time">0</div><button class="change">変更</button></div></td>
+<td class="date">28<div class="worked"><div class="time">0</div><button class="change">変更</button></div></td>
+<td class="date">29<div class="worked"><div class="time">0</div><button class="change">変更</button></div></td>
+<td class="date">30<div class="worked"><div class="time">0</div><button class="change">変更</button></div></td>
+<td class="date">31<div class="worked"><div class="time">0</div><button class="change">変更</button></div></td>
+</tr>
+
+<table id="calendar11">
+<thead>
+<tr><td>11月</td><td>収入:</td><td class="income"></td></tr>
+</thead>
+
+<tbody>
+<tr>
+<td class="date">1<div class="worked"><div class="time">0</div><button class="change">変更</button></div></td>
+<td class="date">2<div class="worked"><div class="time">0</div><button class="change">変更</button></div></td>
+<td class="date">3<div class="worked"><div class="time">0</div><button class="change">変更</button></div></td>
+<td class="date">4<div class="worked"><div class="time">0</div><button class="change">変更</button></div></td>
+<td class="date">5<div class="worked"><div class="time">0</div><button class="change">変更</button></div></td>
+<td class="date">6<div class="worked"><div class="time">0</div><button class="change">変更</button></div></td>
+<td class="date">7<div class="worked"><div class="time">0</div><button class="change">変更</button></div></td>
+</tr>
+<tr>
+<td class="date">8<div class="worked"><div class="time">0</div><button class="change">変更</button></div></td>
+<td class="date">9<div class="worked"><div class="time">0</div><button class="change">変更</button></div></td>
+<td class="date">10<div class="worked"><div class="time">0</div><button class="change">変更</button></div></td>
+<td class="date">11<div class="worked"><div class="time">0</div><button class="change">変更</button></div></td>
+<td class="date">12<div class="worked"><div class="time">0</div><button class="change">変更</button></div></td>
+<td class="date">13<div class="worked"><div class="time">0</div><button class="change">変更</button></div></td>
+<td class="date">14<div class="worked"><div class="time">0</div><button class="change">変更</button></div></td>
+</tr>
+
+<tr>
+<td class="date">15<div class="worked"><div class="time">0</div><button class="change">変更</button></div></td>
+<td class="date">16<div class="worked"><div class="time">0</div><button class="change">変更</button></div></td>
+<td class="date">17<div class="worked"><div class="time">0</div><button class="change">変更</button></div></td>
+<td class="date">18<div class="worked"><div class="time">0</div><button class="change">変更</button></div></td>
+<td class="date">19<div class="worked"><div class="time">0</div><button class="change">変更</button></div></td>
+<td class="date">20<div class="worked"><div class="time">0</div><button class="change">変更</button></div></td>
+<td class="date">21<div class="worked"><div class="time">0</div><button class="change">変更</button></div></td>
+</tr>
+
+<tr>
+<td class="date">22<div class="worked"><div class="time">0</div><button class="change">変更</button></div></td>
+<td class="date">23<div class="worked"><div class="time">0</div><button class="change">変更</button></div></td>
+<td class="date">24<div class="worked"><div class="time">0</div><button class="change">変更</button></div></td>
+<td class="date">25<div class="worked"><div class="time">0</div><button class="change">変更</button></div></td>
+<td class="date">26<div class="worked"><div class="time">0</div><button class="change">変更</button></div></td>
+<td class="date">27<div class="worked"><div class="time">0</div><button class="change">変更</button></div></td>
+<td class="date">28<div class="worked"><div class="time">0</div><button class="change">変更</button></div></td>
+</tr>
+
+<tr>
+<td class="date">29<div class="worked"><div class="time">0</div><button class="change">変更</button></div></td>
+<td class="date">30<div class="worked"><div class="time">0</div><button class="change">変更</button></div></td>
+<td class="date"></td>
+<td class="date"></td>
+<td class="date"></td>
+<td class="date"></td>
+<td class="date"></td>
+</tr>
+
+</tbody>
+</table>
+
+<table id="calendar12">
+<thead>
+<tr><td>12月</td><td>収入:</td><td class="income"></td></tr>
+</thead>
+
+<tbody>
+<tr>
+<td class="date"></td>
+<td class="date"></td>
+<td class="date">1<div class="worked"><div class="time">0</div><button class="change">変更</button></div></td>
+<td class="date">2<div class="worked"><div class="time">0</div><button class="change">変更</button></div></td>
+<td class="date">3<div class="worked"><div class="time">0</div><button class="change">変更</button></div></td>
+<td class="date">4<div class="worked"><div class="time">0</div><button class="change">変更</button></div></td>
+<td class="date">5<div class="worked"><div class="time">0</div><button class="change">変更</button></div></td>
+</tr>
+<tr>
+<td class="date">6<div class="worked"><div class="time">0</div><button class="change">変更</button></div></td>
+<td class="date">7<div class="worked"><div class="time">0</div><button class="change">変更</button></div></td>
+<td class="date">8<div class="worked"><div class="time">0</div><button class="change">変更</button></div></td>
+<td class="date">9<div class="worked"><div class="time">0</div><button class="change">変更</button></div></td>
+<td class="date">10<div class="worked"><div class="time">0</div><button class="change">変更</button></div></td>
+<td class="date">11<div class="worked"><div class="time">0</div><button class="change">変更</button></div></td>
+<td class="date">12<div class="worked"><div class="time">0</div><button class="change">変更</button></div></td>
+</tr>
+
+<tr>
+<td class="date">13<div class="worked"><div class="time">0</div><button class="change">変更</button></div></td>
+<td class="date">14<div class="worked"><div class="time">0</div><button class="change">変更</button></div></td>
+<td class="date">15<div class="worked"><div class="time">0</div><button class="change">変更</button></div></td>
+<td class="date">16<div class="worked"><div class="time">0</div><button class="change">変更</button></div></td>
+<td class="date">17<div class="worked"><div class="time">0</div><button class="change">変更</button></div></td>
+<td class="date">18<div class="worked"><div class="time">0</div><button class="change">変更</button></div></td>
+<td class="date">19<div class="worked"><div class="time">0</div><button class="change">変更</button></div></td>
+</tr>
+
+<tr>
+<td class="date">20<div class="worked"><div class="time">0</div><button class="change">変更</button></div></td>
+<td class="date">21<div class="worked"><div class="time">0</div><button class="change">変更</button></div></td>
+<td class="date">22<div class="worked"><div class="time">0</div><button class="change">変更</button></div></td>
+<td class="date">23<div class="worked"><div class="time">0</div><button class="change">変更</button></div></td>
+<td class="date">24<div class="worked"><div class="time">0</div><button class="change">変更</button></div></td>
+<td class="date">25<div class="worked"><div class="time">0</div><button class="change">変更</button></div></td>
+<td class="date">26<div class="worked"><div class="time">0</div><button class="change">変更</button></div></td>
+</tr>
+
+<tr>
+<td class="date">27<div class="worked"><div class="time">0</div><button class="change">変更</button></div></td>
+<td class="date">28<div class="worked"><div class="time">0</div><button class="change">変更</button></div></td>
+<td class="date">29<div class="worked"><div class="time">0</div><button class="change">変更</button></div></td>
+<td class="date">30<div class="worked"><div class="time">0</div><button class="change">変更</button></div></td>
+<td class="date">31<div class="worked"><div class="time">0</div><button class="change">変更</button></div></td>
+<td class="date"></td>
+<td class="date"></td>
+</tr>
+
+</tbody>
+</table>
+
+<script>
+
+var pay = 1000;
+for(var j=1; j<=12; j++){
+	var datesOfMonth = document.querySelectorAll("#calendar" + j + " td");
+	for(var i=0; i<datesOfMonth.length; i++){
+		var changeButton = datesOfMonth[i].querySelector("button.change");
+		if(changeButton){
+			changeButton.addEventListener("click",function(e){
+				var workedTime = e.target.parentNode.querySelector("div.time").innerHTML;
+				var inputted = window.prompt("クリックされました", workedTime);
+
+				if(inputted){
+					e.target.parentNode.querySelector("div.time").innerHTML = inputted;
+					var workOfMonth = e.target.parentNode.parentNode.parentNode.parentNode.querySelectorAll("div.time");
+					var sumOfWork = 0;
+					for(var k=0; k<workOfMonth.length; k++){
+						sumOfWork += Number(workOfMonth[k].innerHTML);
+					}
+					e.target.parentNode.parentNode.parentNode.parentNode.parentNode.querySelector("thead td.income").innerHTML = sumOfWork * pay;
+				}
+			});
+		}
+	}
+}
+</script>
+</body>
+</html>
